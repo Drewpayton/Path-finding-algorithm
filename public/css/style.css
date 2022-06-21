@@ -24,7 +24,8 @@ nav a {
     color: white !important;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:focus {
     color: #FCA311 !important;
 }
 
@@ -36,4 +37,8 @@ nav button {
 
 nav button:hover {
     color: white !important;
+}
+
+.bg-custom-drop {
+    background-color: #1D283E !important;
 }
