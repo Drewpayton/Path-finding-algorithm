@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+}
+
+
+nav {
+    background-color: #1D283E !important;
+    padding: 5px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+nav li {
+    list-style: none;
+    font-size: 15px;
+    display: inline-block;
+    padding-right: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white !important;
+}
+
+nav a:hover {
+    color: #FCA311 !important;
+}
+
+nav button {
+    background-color:  #FCA311 !important;
+    border: #FCA311 1px !important;
+    color: #1D283E !important;
+}
+
+nav button:hover {
+    color: white !important;
+}
